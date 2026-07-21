@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/Mia_Bosshammer_Media_Kit_Web.html"
+  status = 200
