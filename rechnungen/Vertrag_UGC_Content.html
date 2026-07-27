@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Werkvertrag — UGC Content Creation</title>
+<style>
+  @page { margin: 2cm 2.5cm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #222;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #9C5A6C;
+  }
+  .header h1 {
+    font-size: 20pt;
+    color: #9C5A6C;
+    margin-bottom: 4px;
+  }
+  .header p {
+    font-size: 10pt;
+    color: #666;
+  }
+  .parties {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .party {
+    flex: 1;
+  }
+  .party h3 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #9C5A6C;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+  .party p {
+    font-size: 10pt;
+    line-height: 1.5;
+  }
+  .party .placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  h2 {
+    font-size: 13pt;
+    color: #9C5A6C;
+    margin: 30px 0 12px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #E8C2CE;
+  }
+  p, li {
+    font-size: 10.5pt;
+    line-height: 1.7;
+    margin-bottom: 8px;
+  }
+  ul, ol {
+    margin-left: 20px;
+    margin-bottom: 12px;
+  }
+  .contract-meta {
+    background: #FDF6F8;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 30px;
+  }
+  .contract-meta table {
+    width: 100%;
+    font-size: 10pt;
+  }
+  .contract-meta td {
+    padding: 4px 0;
+  }
+  .contract-meta td:first-child {
+    font-weight: bold;
+    color: #9C5A6C;
+    width: 35%;
+  }
+  .pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 10.5pt;
+  }
+  .pricing-table th {
+    background: #9C5A6C;
+    color: white;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 10pt;
+  }
+  .pricing-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #E8C2CE;
+  }
+  .pricing-table .total td {
+    font-weight: bold;
+    background: #FDF6F8;
+    border-top: 2px solid #9C5A6C;
+    font-size: 11pt;
+  }
+  .pricing-table .right {
+    text-align: right;
+  }
+  .signatures {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 60px;
+  }
+  .sig-box {
+    flex: 1;
+  }
+  .sig-line {
+    border-top: 1px solid #333;
+    margin-top: 50px;
+    padding-top: 6px;
+    font-size: 9pt;
+    color: #666;
+  }
+  .footer-note {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid #E8C2CE;
+    font-size: 9pt;
+    color: #999;
+    text-align: center;
+  }
+  @media print {
+    body { padding: 0; max-width: none; }
+    .no-print { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Werkvertrag</h1>
+  <p>UGC Content Creation — Erstellung von User Generated Content</p>
+</div>
+
+<div class="contract-meta">
+  <table>
+    <tr><td>Vertragsnummer:</td><td>V-2026-001</td></tr>
+    <tr><td>Datum:</td><td>____________________</td></tr>
+    <tr><td>Geltungsbereich:</td><td>Bundesrepublik Deutschland</td></tr>
+  </table>
+</div>
+
+<div class="parties">
+  <div class="party">
+    <h3>Auftragnehmerin</h3>
+    <p>
+      <strong>Mia Bosshammer</strong><br>
+      UGC Creatorin<br>
+      Moospfad 8<br>
+      42113 Wuppertal<br>
+      Nordrhein-Westfalen, Deutschland<br>
+      E-Mail: info@miabosshammer.de
+    </p>
+  </div>
+  <div class="party">
+    <h3>Auftraggeber</h3>
+    <p class="placeholder">
+      <strong>[Firmenname]</strong><br>
+      [Ansprechpartner]<br>
+      [Straße &amp; Hausnummer]<br>
+      [PLZ &amp; Ort]<br>
+      [Land]<br>
+      E-Mail: [E-Mail-Adresse]
+    </p>
+  </div>
+</div>
+
+<h2>§ 1 Vertragsgegenstand</h2>
+<p>Die Auftragnehmerin verpflichtet sich, für den Auftraggeber folgende Leistungen zu erbringen:</p>
+<table class="pricing-table">
+  <thead>
+    <tr>
+      <th>Pos.</th>
+      <th>Leistungsbeschreibung</th>
+      <th class="right">Menge</th>
+      <th class="right">Einzelpreis</th>
+      <th class="right">Gesamtpreis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>UGC Video — inkl. Konzept, Aufnahme, Schnitt und Lieferung in den gewünschten Formaten (9:16, 1:1, 16:9)</td>
+      <td class="right">2</td>
+      <td class="right">180,00 €</td>
+      <td class="right">360,00 €</td>
+    </tr>
+    <tr class="total">
+      <td colspan="4">Gesamtbetrag (netto, gemäß § 19 UStG Kleinunternehmerregelung)</td>
+      <td class="right">360,00 €</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>§ 2 Leistungsdetails</h2>
+<ol>
+  <li><strong>Content-Bereich:</strong> _______________ (z.B. Beauty, Fitness, Food, Fashion, Haustiere, Wellness)</li>
+  <li><strong>Plattformen:</strong> TikTok, Instagram Reels, oder nach Absprache</li>
+  <li><strong>Formate:</strong> 9:16 (vertikal), 1:1 (quadratisch), 16:9 (horizontal) — nach Absprache</li>
+  <li><strong>Lieferform:</strong> Digitale Übermittlung (z.B. via E-Mail, Cloud-Link)</li>
+  <li><strong>Briefing:</strong> Der Auftraggeber stellt ein Briefing mit den Key Messages zur Verfügung. Die Auftragnehmerin setzt dieses nach eigenem kreativen Ermessen um.</li>
+  <li><strong>A- und B-Rolls:</strong> Pro Video werden A-Roll (Hauptcontent) und B-Roll (Begleitmaterial) geliefert, sofern im Briefing vereinbart.</li>
+</ol>
+
+<h2>§ 3 Lieferfrist</h2>
+<p>Die Auftragnehmerin liefert die vereinbarten Videos innerhalb von __ Tagen nach Erhalt des Briefings und ggf. der Produkte. Bei Verzögerungen wird der Auftraggeber unverzüglich informiert.</p>
+
+<h2>§ 4 Vergütung und Zahlungsbedingungen</h2>
+<ol>
+  <li>Der Gesamtpreis beträgt <strong>360,00 €</strong> (netto, gemäß § 19 UStG Kleinunternehmerregelung — keine USt ausgewiesen).</li>
+  <li>Die Zahlung ist innerhalb von <strong>14 Tagen</strong> nach Rechnungsstellung fällig.</li>
+  <li>Zahlungsweise: Überweisung auf das in der Rechnung angegebene Konto.</li>
+  <li>Bei zusätzlichen Leistungen, die über den vereinbarten Umfang hinausgehen, wird ein separater Stundensatz von 45,00 €/Stunde vereinbart.</li>
+</ol>
+
+<h2>§ 5 Nutzungsrechte</h2>
+<ol>
+  <li>Der Auftraggeber erhält an den erstellten Videos ein <strong>einfaches, zeitlich und räumlich unbeschränktes Nutzungsrecht</strong> für die Veröffentlichung auf eigenen Kanälen (Social Media, Website, Werbeanzeigen).</li>
+  <li>Die Auftragnehmerin behält das Urheberrecht an den erstellten Inhalten.</li>
+  <li>Eine Weitergabe der Nutzungsrechte an Dritte bedarf der schriftlichen Zustimmung der Auftragnehmerin.</li>
+  <li>Die Auftragnehmerin darf die erstellten Videos zu eigenen Portfolio-Zwecken verwenden, sofern keine vertraulichen Inhalte oder Produkte erkennbar sind.</li>
+</ol>
+
+<h2>§ 6 Pflichten des Auftraggebers</h2>
+<ol>
+  <li>Der Auftraggeber stellt ein vollständiges Briefing zur Verfügung.</li>
+  <li>Produkte, die für den Content benötigt werden, werden dem Auftragnehmer rechtzeitig und kostenfrei zur Verfügung gestellt.</li>
+  <li>Der Auftraggeber stellt sicher, dass alle im Briefing enthaltenen Informationen und Anforderungen rechtlich zulässig sind.</li>
+</ol>
+
+<h2>§ 7 Rücktritt und Kündigung</h2>
+<ol>
+  <li>Der Auftraggeber kann bis zum Beginn der Aufnahme zurücktreten. In diesem Fall werden bereits erbrachte Vorleistungen (Konzept, Planung) mit 50 % des Auftragswerts berechnet.</li>
+  <li>Nach Beginn der Aufnahme ist ein Rücktritt nicht mehr möglich; der volle Auftragswert ist geschuldet.</li>
+  <li>Die Auftragnehmerin kann den Vertrag außerordentlich kündigen, wenn der Auftraggeber seiner Mitwirkungspflicht nicht nachkommt.</li>
+</ol>
+
+<h2>§ 8 Gewährleistung und Abnahme</h2>
+<ol>
+  <li>Die Auftragnehmerin liefert die Videos zur Abnahme. Der Auftraggeber hat innerhalb von 5 Tagen nach Lieferung die Abnahme zu erklären oder Änderungswünsche schriftlich mitzuteilen.</li>
+  <li>Bei begründeten Änderungswünschen wird eine Überarbeitung durchgeführt. Further Änderungen über das vereinbarte Maß hinaus werden nach Aufwand abgerechnet.</li>
+  <li>Schweigt der Auftraggeber nach 5 Tagen, gilt die Abnahme als erteilt.</li>
+</ol>
+
+<h2>§ 9 Haftung</h2>
+<ol>
+  <li>Die Auftragnehmerin haftet nur für Vorsatz und grobe Fahrlässigkeit.</li>
+  <li>Für leichte Fahrlässigkeit haftet die Auftragnehmerin nur bei Verletzung wesentlicher Vertragspflichten und nur in Höhe des typischerweise vorhersehbaren Schadens.</li>
+</ol>
+
+<h2>§ 10 Schlussbestimmungen</h2>
+<ol>
+  <li>Es gilt das Recht der Bundesrepublik Deutschland.</li>
+  <li>Ausschließlicher Gerichtsstand ist Wuppertal, sofern der Auftraggeber Unternehmer ist.</li>
+  <li>Sollten einzelne Bestimmungen dieses Vertrags unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.</li>
+  <li>Änderungen und Ergänzungen dieses Vertrags bedürfen der Schriftform.</li>
+</ol>
+
+<div class="signatures">
+  <div class="sig-box">
+    <div class="sig-line">Ort, Datum &amp; Unterschrift — Auftragnehmerin<br>Mia Bosshammer</div>
+  </div>
+  <div class="sig-box">
+    <div class="sig-line">Ort, Datum &amp; Unterschrift — Auftraggeber<br>[Firmenname]</div>
+  </div>
+</div>
+
+<div class="footer-note">
+  Mia Bosshammer · UGC Creatorin · Moospfad 8, 42113 Wuppertal · info@miabosshammer.de
+</div>
+
+<div class="no-print" style="text-align:center;margin-top:30px;">
+  <button onclick="window.print()" style="background:#9C5A6C;color:white;border:none;padding:12px 30px;border-radius:8px;font-size:13px;cursor:pointer;">Als PDF speichern / Drucken</button>
+</div>
+
+</body>
+</html>
