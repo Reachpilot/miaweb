@@ -59,11 +59,12 @@
     "longitude": "7.1508"
   },
   "knowsAbout": ["UGC Content", "Beauty Content", "Skincare", "Fitness Content", "Food Content", "Fashion Content", "Social Media Marketing", "TikTok", "Instagram Reels", "Content Produktion", "UGC Creator Wuppertal", "UGC Creator NRW"],
+  "knowsLanguage": ["de", "en"],
   "areaServed": {
     "@type": "AdministrativeArea",
     "name": "Nordrhein-Westfalen"
   },
-  "sameAs": []
+  "sameAs": ["https://miabosshammer.de/"]
 }
 </script>
 <script type="application/ld+json">
@@ -137,6 +138,75 @@
   "name": "Mia Bosshammer — UGC Creator",
   "url": "https://miabosshammer.de/",
   "inLanguage": "de"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Mia Bosshammer — UGC Creator",
+  "url": "https://miabosshammer.de/",
+  "logo": "https://miabosshammer.de/favicon.svg",
+  "email": "info@miabosshammer.de",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Moospfad 8",
+    "addressLocality": "Wuppertal",
+    "postalCode": "42113",
+    "addressRegion": "Nordrhein-Westfalen",
+    "addressCountry": "DE"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Mia Bosshammer — UGC Creator",
+  "image": "https://miabosshammer.de/mia-hero.jpg",
+  "url": "https://miabosshammer.de/",
+  "email": "info@miabosshammer.de",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Moospfad 8",
+    "addressLocality": "Wuppertal",
+    "postalCode": "42113",
+    "addressRegion": "Nordrhein-Westfalen",
+    "addressCountry": "DE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "51.2562",
+    "longitude": "7.1508"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Nordrhein-Westfalen"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "UGC Content Creation",
+  "provider": {
+    "@type": "Person",
+    "name": "Mia Bosshammer",
+    "url": "https://miabosshammer.de/"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Nordrhein-Westfalen"
+  },
+  "description": "UGC Content Creation für Marken — Beauty, Fitness, Food, Fashion, Haustiere & Wellness. Authentische Videos, die wie echte Empfehlungen wirken.",
+  "offers": {
+    "@type": "Offer",
+    "description": "Individuelle Preise auf Anfrage, abgestimmt auf Umfang und Content-Menge.",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "EUR"
+  }
 }
 </script>
 <style>
@@ -910,6 +980,45 @@
   /* MOBILE MENU */
   .menu-toggle { display: none; background: transparent; border: none; cursor: pointer; flex-direction: column; gap: 4px; padding: 4px; }
   .menu-toggle span { width: 22px; height: 2px; border-radius: 2px; background: var(--rose-600); transition: .25s; }
+
+  /* QUICK ANSWER BOX (AEO) */
+  .quick-answer {
+    background: var(--rose-50);
+    border-left: 4px solid var(--rose-400);
+    border-radius: 8px;
+    padding: 18px 24px;
+    margin: 16px 0 24px 0;
+    max-width: 760px;
+  }
+  .quick-answer strong { color: var(--rose-700); }
+  .quick-answer p { margin: 0; font-size: 15px; line-height: 1.7; color: var(--text); }
+
+  /* AUTHOR BIO BOX (E-E-A-T) */
+  .author-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: var(--rose-50);
+    border-radius: 14px;
+    padding: 24px;
+    margin: 40px 0 0 0;
+    max-width: 760px;
+  }
+  .author-avatar {
+    width: 72px; height: 72px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .author-avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .author-info h3 { font-family: 'Georgia', serif; font-size: 16px; color: var(--rose-700); margin: 0 0 4px 0; }
+  .author-info p { font-size: 13.5px; line-height: 1.6; color: var(--muted); margin: 0 0 6px 0; }
+  .author-info a { font-size: 13px; color: var(--rose-600); text-decoration: none; font-weight: 600; }
+  .author-info a:hover { text-decoration: underline; }
+  @media (max-width: 600px){
+    .author-box { flex-direction: column; text-align: center; }
+  }
+
   @media (max-width: 720px){
     .menu-toggle { display: flex; }
     .nav-links {
@@ -962,6 +1071,9 @@
       <div class="hero-copy">
         <div class="eyebrow"><span class="dot"></span> VERFÜGBAR FÜR KOOPERATIONEN</div>
         <h1>UGC Content, das<br><span>echt wirkt</span> &amp; überzeugt.</h1>
+        <div class="quick-answer">
+          <p><strong>Mia Bosshammer</strong> ist eine weibliche UGC Creatorin aus Wuppertal, Nordrhein-Westfalen. Sie produziert authentische Videos und Bilder für Marken in den Bereichen Beauty, Fitness, Food, Fashion, Haustiere und Wellness — Content, der wie eine echte Empfehlung wirkt und nicht wie Werbung.</p>
+        </div>
         <p class="lead">Ich bin Mia — UGC Creatorin aus Wuppertal, Nordrhein-Westfalen. Flexibel, zuverlässig und mit einem geschulten Blick fürs Bild bringe ich Marken authentischen Content, der ankommt.</p>
         <div class="hero-actions">
           <a class="btn-primary" href="#contact">Zusammenarbeiten</a>
@@ -997,6 +1109,9 @@
       <div class="about-text">
         <div class="section-label" style="text-align:left">Über mich</div>
         <h2 class="section-title" style="text-align:left; margin-bottom:18px;">Persönlich, professionell, präzise.</h2>
+        <div class="quick-answer">
+          <p><strong>Mia Bosshammer</strong> ist UGC Creatorin mit Sitz in Wuppertal, NRW. Sie hat Erfahrung in sechs Content-Bereichen und liefert Marken authentische Videos, die wie echte Empfehlungen wirken — flexibel, zuverlässig und mit professionellem Blick fürs Bild.</p>
+        </div>
         <p class="body">Ich fühle mich vor der Kamera zuhause – ob im Alltag, beim Sport, in der Küche oder bei einer neuen Skincare-Routine. Marken schätzen an mir die Mischung aus persönlicher Note und professionellem Blick fürs Bild: Ich verstehe ein Briefing schnell, denke mich in unbekannte Themen ein und liefere Content, der echt wirkt und trotzdem überzeugt.</p>
         <ul class="strength-list">
           <li><span class="check">✓</span> Sehr flexibel &amp; offen für neue Formate</li>
@@ -1005,6 +1120,16 @@
           <li><span class="check">✓</span> Gepflegtes, kamerataugliches Erscheinungsbild</li>
           <li><span class="check">✓</span> Sportlich, authentisch &amp; nahbar</li>
         </ul>
+        <div class="author-box">
+          <div class="author-avatar">
+            <img src="mia-hero.jpg" alt="Mia Bosshammer — UGC Creatorin aus Wuppertal" width="72" height="72">
+          </div>
+          <div class="author-info">
+            <h3>Mia Bosshammer</h3>
+            <p>UGC Creatorin aus Wuppertal, Nordrhein-Westfalen. Spezialisiert auf authentischen Markencontent für Beauty, Fitness, Food, Fashion, Haustiere &amp; Wellness.</p>
+            <a href="mailto:info@miabosshammer.de">info@miabosshammer.de</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
